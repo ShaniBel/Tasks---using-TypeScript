@@ -1,0 +1,114 @@
+/* (A) GENERAL FORM STYLES */
+#todo-wrap input {
+  box-sizing: border-box;
+}
+
+#todo-wrap input {
+  padding: 10px;
+}
+
+#todo-wrap input[type="button"],
+#todo-wrap input[type="submit"] {
+  color: #fff;
+  cursor: pointer;
+}
+
+/* (B) WHOLE CONTAINER */
+#todo-wrap {
+  max-width: 500px;
+  background: #f2f2f2;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* (C) HEADER  */
+#todo-wrap h1 {
+  font-size: 1.5em;
+  margin: 0;
+  color: #333;
+}
+
+/* (D) ADD ITEM  */
+
+/* the div containing task */
+#todo-add {
+  display: flex;
+}
+
+#todo-item {
+  width: 85%;
+}
+
+/* blue button */
+#todo-save {
+  width: 15%;
+  background: #5866cf;
+  border: 2px solid #5866cf;
+}
+
+/* (E) DELETE ITEMS */
+#todo-del {
+  margin: 10px 0;
+}
+
+#todo-del input {
+  background: #cf585c;
+  border: 2px solid #cf585c;
+}
+
+/* (F) LIST ITEMS */
+/* (F1) ITEM ROW */
+.todo-row {
+  display: flex;
+  margin-top: 10px;
+}
+
+/* (F2) ITEM TEXT */
+.todo-item {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 10px;
+}
+
+/* adds red backround + a line over text */
+.todo-item.cx {
+  background: #ffe1d7;
+  text-decoration: line-through;
+}
+/* adds green backround + a line over text */
+.todo-item.done {
+  background: #dcffd7;
+  text-decoration: line-through;
+}
+
+/* (F3) CANCEL AND OK BUTTONS */
+.todo-cx,
+.todo-ok {
+  width: 50px;
+  height: 63px;
+}
+
+.todo-cx {
+  background: #cf585c;
+  border: 2px solid #cf585c;
+}
+
+.todo-ok {
+  color: white;
+  background: #4aa53d;
+  border: 2px solid #4aa53d;
+}
+
+/* (G) DOES NOT MATTER */
+html,
+body,
+input {
+  font-family: arial, sans-serif;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
