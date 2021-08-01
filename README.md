@@ -1,0 +1,1 @@
+# my exam in typescript
